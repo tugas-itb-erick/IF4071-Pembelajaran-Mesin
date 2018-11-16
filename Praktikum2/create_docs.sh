@@ -1,0 +1,5 @@
+rm -rf docs
+mkdir docs
+jupyter nbconvert --to html Praktikum2_13515021_13515057_13515063.ipynb
+mv Praktikum2_13515021_13515057_13515063.html docs/Praktikum2_13515021_13515057_13515063.html
+wkhtmltopdf docs/Praktikum2_13515021_13515057_13515063.html docs/Praktikum2_13515021_13515057_13515063.pdf
