@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/wijayaerick/Programs/miniconda3/envs/tfenv/bin/python",
+    "python.linting.pylintPath": "pylint"
+}
